@@ -137,6 +137,7 @@ For annotations based on textual span, inter-annotator agreement experiments per
 | TIMEX3          | 0.50 | 0.60  | 0.46  | 0.44  |       |       |       |
 | ACTOR           | 0.87 | 0.90  | 0.82  | 0.89  |       |       |       |
 | BODYPART        | 0.57 | 0.68  | 0.49  | 0.55  |       |       |       |
+
 Table 5.1: Iner annotator agreement.<br>
 <br/><br/>
 
