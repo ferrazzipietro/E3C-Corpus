@@ -126,6 +126,21 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
+## Inter Annotator Agreement
+
+For annotations based on textual span, inter-annotator agreement experiments performed on a subset of the dataset to compute the pairwise agreement  (four annotators in the case of clinical entities and three for the other categories) show high agreement, generally far above 0.6, with the only exceptions of temporal expressions and body parts:
+
+| Category        | AVG  | A1–A2 | A1–A3 | A2–A3 | A1–A4 | A2–A4 | A3–A4 |
+| --------------- | ---: | ----: | ----: | ----: | ----: | ----: | ----: |
+| CLINICAL ENTITY | 0.70 | 0.71  | 0.78  | 0.76  | 0.64  | 0.65  | 0.64  |
+| EVENT           | 0.81 | 0.86  | 0.85  | 0.72  |       |       |       |
+| TIMEX3          | 0.50 | 0.60  | 0.46  | 0.44  |       |       |       |
+| ACTOR           | 0.87 | 0.90  | 0.82  | 0.89  |       |       |       |
+| BODYPART        | 0.57 | 0.68  | 0.49  | 0.55  |       |       |       |
+Table 5.1: Iner annotator agreement.<br>
+<br/><br/>
+
+
 
 ## Data Validation
 
